@@ -10,5 +10,4 @@ a=agent(m,footprints=True,color=COLOR.red,filled=True)
 b=agent(m,x=5,y=1,goal=(2,5),footprints=True,color=COLOR.yellow)
 m.tracePath({a:m.path},delay=100,kill=True)
 m.tracePath({b:m.path},delay=100)
-
 m.run()
